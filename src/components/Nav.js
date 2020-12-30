@@ -65,7 +65,7 @@ export default function Nav() {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/authors">Authors</Link>
+          <Link to="/books">Books</Link>
         </li>
         <li>
           <Link to="/">
@@ -73,7 +73,7 @@ export default function Nav() {
           </Link>
         </li>
         <li>
-          <Link to="/quotes">Quotes</Link>
+          <Link to="/authors">Authors</Link>
         </li>
         <li>
           <Link to="/order">Order now!</Link>
