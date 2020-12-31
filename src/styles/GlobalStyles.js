@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import bg from '../assets/images/bg.svg';
+// import bg from '../assets/images/bg.svg';
 import stripes from '../assets/images/stripes.svg';
 
 const GlobalStyles = createGlobalStyle`
@@ -11,10 +11,12 @@ const GlobalStyles = createGlobalStyle`
     --grey: #efefef;
   }
   html {
-    background-image: url(${bg});
-    background-size: 450px;
-    background-attachment: fixed;
     font-size: 10px;
+    background-color: #fff;
+    {/*Sarah Backhouse pattern*/}
+    background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+    background-attachment: fixed;
   }
 
   body {
@@ -79,6 +81,11 @@ const GlobalStyles = createGlobalStyle`
     transform: rotate(-2deg);
     position: relative;
     display: inline-block;
+  }
+
+  .text {
+    max-width: 660px;
+    margin: 2rem auto;
   }
 
 `;

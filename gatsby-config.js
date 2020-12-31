@@ -9,6 +9,7 @@ export default {
     title: `Books Slices`,
     siteUrl: 'https://books.slices',
     description: 'The best books slices in this neighbourhood',
+    twitter: '@booksSlices',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

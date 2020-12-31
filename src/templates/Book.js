@@ -2,6 +2,7 @@ import { graphql } from 'gatsby';
 import React from 'react';
 import Img from 'gatsby-image';
 import styled from 'styled-components';
+import SEO from '../components/SEO';
 
 const BookGrid = styled.div`
   display: grid;
@@ -12,22 +13,29 @@ const BookGrid = styled.div`
 export default function SingleBookPage({ data }) {
   const { book } = data;
   return (
-    <BookGrid>
-      <Img fluid={book.image.asset.fluid} alt={book.name} />
-      <div>
-        <h2 className="mark">{book.name}</h2>
-        <ul>
-          {book.authors.map((author) => (
-            <li key={author.id}>{author.name}</li>
-          ))}
-        </ul>
-        <ul>
-          {book.tags.map((tag) => (
-            <li key={tag.id}>{tag.name}</li>
-          ))}
-        </ul>
-      </div>
-    </BookGrid>
+    <>
+      <SEO
+        title={book.name}
+        description={book.description}
+        image={book.image?.asset?.fluid?.src}
+      />
+      <BookGrid>
+        <Img fluid={book.image.asset.fluid} alt={book.name} />
+        <div>
+          <h2 className="mark">{book.name}</h2>
+          <ul>
+            {book.authors.map((author) => (
+              <li key={author.id}>{author.name}</li>
+            ))}
+          </ul>
+          <ul>
+            {book.tags.map((tag) => (
+              <li key={tag.id}>{tag.name}</li>
+            ))}
+          </ul>
+        </div>
+      </BookGrid>
+    </>
   );
 }
 

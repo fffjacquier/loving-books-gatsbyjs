@@ -2,12 +2,16 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import BookList from '../components/BookList';
 import TagsFilter from '../components/TagsFilter';
+import SEO from '../components/SEO';
 
 export default function BooksPage({ data, pageContext }) {
   console.log(data, pageContext);
   const books = data.books.nodes;
   return (
     <>
+      <SEO
+        title={pageContext.tag ? `Book genre ${pageContext.tag}` : ' All books'}
+      />
       <TagsFilter activeTag={pageContext.tag} />
       <BookList books={books} />
     </>
