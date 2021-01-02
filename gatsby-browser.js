@@ -11,3 +11,15 @@ export function wrapPageElement({ element, props }) {
 export function wrapRootElement({ element }) {
   return <OrderProvider>{element}</OrderProvider>;
 }
+
+export const onServiceWorkerUpdateReady = () => {
+  const answer = window.confirm(
+    `Cette application a été mise à jour. ` +
+      `Recharger pour accéder à la dernière version ?`
+  );
+  if (answer === true) {
+    window.location.reload();
+  }
+};
+
+// export const registerServiceWorker = () => true;
