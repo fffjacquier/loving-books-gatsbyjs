@@ -37,7 +37,6 @@ const AuthorStyles = styled.div`
 `;
 
 export default function AuthorsPage({ data, pageContext }) {
-  console.log(data);
   const authors = data.authors.nodes;
   const numAuthors = data.authors.totalCount;
 

@@ -34,7 +34,6 @@ export default function BeersPage({ data }) {
       </h2>
       <BeerGridStyles>
         {data.beers.nodes.map((beer) => {
-          console.log(beer);
           const rating = Math.round(beer.rating.average);
 
           return (
