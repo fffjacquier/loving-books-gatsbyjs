@@ -7,7 +7,7 @@ export default function ItemGrid({ items }) {
       {items.map((item) => (
         <ItemStyles key={item._id} title={item.name}>
           <p>
-            <span className="mark ellipsis">{item.name}</span>
+            <span className="mark">{item.name}</span>
           </p>
           <img
             src={`${item.image.asset.url}?w=400&h=300&fit=crop`}

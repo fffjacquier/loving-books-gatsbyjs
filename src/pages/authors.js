@@ -8,7 +8,7 @@ import SEO from '../components/SEO';
 const AuthorGrid = styled.div`
   display: grid;
   grid-gap: 2rem;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 `;
 
 const AuthorStyles = styled.div`

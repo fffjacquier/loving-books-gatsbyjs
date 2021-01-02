@@ -37,8 +37,8 @@ export default function HomePage() {
 
   return (
     <div className="center">
-      <h1>The Books I am reading now. Or will.</h1>
-      <p>Alas, Store is eternally closed for reading reasons.</p>
+      <h1>The Books I am reading now. Or will. One day.</h1>
+      <p>Store is obviously closed for reading reasons.</p>
       <HomePageGrid>
         <CurrentlyReading authors={author} />
         <HotNextBooks hot={hot} />
