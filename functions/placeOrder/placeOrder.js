@@ -36,6 +36,41 @@ function wait(ms = 0) {
   });
 }
 
+// for vercel deploy!
+/* module.exports = async (req, res) {
+  const { body } = req;
+  if (body.pate) {
+    return res.status(400).json({
+      message: 'ERR 95643',
+    })
+  }
+  const requiredFields = ['email', 'name', 'order'];
+
+  for (const field of requiredFields) {
+    if (!body[field]) {
+      return res.status(400).json({
+        message: `Oups! Il manque les infos du champ ${field}`,
+      })
+    }
+  }
+
+  if (!body.order.length) {
+      return res.status(400).json({
+        message: 'Pourquoi ne rien commander ?',
+      })
+  }
+
+  // send email
+  await transporter.sendMail({
+    from: "Books's Slices <books@example.com>",
+    to: `${body.name} <${body.email}>, orders@example.com`,
+    subject: 'Votre commande',
+    html: generateOrderEmail({ order: body.order, total: body.total }),
+  });
+  return res.status(200).json({
+    message: 'Succès !',
+  });
+} */
 exports.handler = async (event, context) => {
   // await wait(2000);
 

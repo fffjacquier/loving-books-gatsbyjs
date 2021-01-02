@@ -3,6 +3,9 @@ import { useEffect, useState } from 'react';
 const details = `
   name
   _id
+  slug {
+    current
+  }
   image {
     asset {
       url

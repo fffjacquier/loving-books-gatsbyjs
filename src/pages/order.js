@@ -74,7 +74,7 @@ export default function OrderPage({ data }) {
           </label>
         </fieldset>
         <fieldset className="booksList" disabled={loading}>
-          <legend>Books List</legend>
+          <div>Books List:</div>
           {books.map((book) => (
             <MenuItemStyles key={book.id}>
               <Img

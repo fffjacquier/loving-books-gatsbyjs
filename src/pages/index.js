@@ -13,7 +13,7 @@ function CurrentlyReading({ authors }) {
       <p>The best authors 🤖</p>
       {!authors && <LoadingGrid count={4} />}
       {authors && !authors.length && <p>No Book reading right now</p>}
-      {authors?.length && <ItemGrid items={authors} />}
+      {authors?.length && <ItemGrid items={authors} base="/author" />}
     </div>
   );
 }
@@ -27,7 +27,7 @@ function HotNextBooks({ hot }) {
       <p>My future pickles picks 🦉</p>
       {!hot && <LoadingGrid count={4} />}
       {hot && !hot.length && <p>Nothing Hot coming right now</p>}
-      {hot?.length && <ItemGrid items={hot} />}
+      {hot?.length && <ItemGrid items={hot} base="/book" />}
     </div>
   );
 }

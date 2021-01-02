@@ -5,13 +5,19 @@ const OrderStyles = styled.form`
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   fieldset {
+    display: grid;
+    gap: 1rem;
     grid-column: span 2;
     max-height: 600px;
     overflow: auto;
-    display: flex;
-    flex-direction: column
-    gap: 1rem;
-    align-content: start;
+    label {
+      display: grid;
+      gap: 1rem;
+      align-content: start;
+    }
+    label + label {
+      margin-top: 1rem;
+    }
     &.order,
     &.booksList {
       grid-column: span 1;
@@ -20,6 +26,8 @@ const OrderStyles = styled.form`
   legend {
     display: inline;
     padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
   }
   .pate {
     display: none;
