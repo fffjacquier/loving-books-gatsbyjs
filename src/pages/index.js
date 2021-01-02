@@ -1,6 +1,7 @@
 import React from 'react';
 import ItemGrid from '../components/ItemGrid';
 import LoadingGrid from '../components/LoadingGrid';
+import SEO from '../components/SEO';
 import HomePageGrid from '../styles/Grids';
 import useLatestData from '../utils/useLatestData';
 
@@ -37,6 +38,10 @@ export default function HomePage() {
 
   return (
     <div className="center">
+      <SEO
+        title="Books I am reading now or will be soon"
+        description="Currently reading and next reading hot shots"
+      />
       <h1>The Books I am reading now. Or will. One day.</h1>
       <p>Store is obviously closed for reading reasons.</p>
       <HomePageGrid>
