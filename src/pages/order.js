@@ -73,8 +73,8 @@ export default function OrderPage({ data }) {
             />
           </label>
         </fieldset>
-        <fieldset className="books" disabled={loading}>
-          <legend>Books</legend>
+        <fieldset className="booksList" disabled={loading}>
+          <legend>Books List</legend>
           {books.map((book) => (
             <MenuItemStyles key={book.id}>
               <Img

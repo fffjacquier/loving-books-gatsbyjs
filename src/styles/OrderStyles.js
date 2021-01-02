@@ -12,15 +12,19 @@ const OrderStyles = styled.form`
     gap: 1rem;
     align-content: start;
     &.order,
-    &.books {
+    &.booksList {
       grid-column: span 1;
     }
+  }
+  legend {
+    display: inline;
+    padding: 0 0.5rem;
   }
   .pate {
     display: none;
   }
   @media (max-width: 900px) {
-    fieldset.books,
+    fieldset.booksList,
     fieldset.order {
       grid-column: span 2;
     }

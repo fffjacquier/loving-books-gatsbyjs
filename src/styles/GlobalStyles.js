@@ -77,6 +77,10 @@ const GlobalStyles = createGlobalStyle`
     max-width: 100%;
   }
 
+  footer p {
+    margin-bottom: 0;
+  }
+
   .tilt {
     transform: rotate(-2deg);
     position: relative;

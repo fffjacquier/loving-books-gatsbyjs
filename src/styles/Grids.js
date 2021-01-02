@@ -26,12 +26,19 @@ export const ItemStyles = styled.div`
   }
   p {
     position: absolute;
-    transform: rotate(-2deg) translateY(-150%);
+    transform: rotate(-2deg) translateY(400%);
     width: 100%;
     left: 0;
   }
   .mark {
     display: inline;
+  }
+  .ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: calc(100% - 20px);
+    display: inline-block;
   }
 
   @keyframes shine {
