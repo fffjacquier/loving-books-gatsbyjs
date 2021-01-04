@@ -1,4 +1,5 @@
 import React from 'react';
+import EnteringBooks from '../components/EnteringBooks';
 import ItemGrid from '../components/ItemGrid';
 import LoadingGrid from '../components/LoadingGrid';
 import SEO from '../components/SEO';
@@ -48,6 +49,7 @@ export default function HomePage() {
         <CurrentlyReading authors={author} />
         <HotNextBooks hot={hot} />
       </HomePageGrid>
+      <EnteringBooks />
     </div>
   );
 }

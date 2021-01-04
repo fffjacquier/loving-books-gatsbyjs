@@ -1,0 +1,47 @@
+{
+  "title": "My list of freshly stumbled upon promising books",
+  "content": [
+    {
+      "date": "2021-01-03",
+      "title": "Second tree from the corner",
+      "author": "E.B White",
+      "src": "Ben Stiller"
+    },
+    {
+      "date": "2021-01-02",
+      "title": "Under Saturn's shadow",
+      "author": "James Hollis",
+      "src": "Neil Strauss"
+    },
+    {
+      "date": "2021-01-02",
+      "title": "Rules of game",
+      "author": "Neil Strauss",
+      "src": "Tim Ferriss' Tribe of mentors"
+    },
+    {
+      "title": "Book of strange new things",
+      "author": "Michael Faber",
+      "date": "2021-01-01",
+      "src": "Joel McHale"
+    },
+    {
+      "title": "The blade itself",
+      "author": "Joe Abercrombie",
+      "date": "2021-01-01",
+      "src": "Joel McHale"
+    },
+    {
+      "title": "Deep survival",
+      "author": "Laurence Gonzales",
+      "date": "2021-01-01",
+      "src": "Joel McHale"
+    },
+    {
+      "date": "2020-12-31",
+      "title": "Les onze",
+      "author": "Pierre Michon",
+      "src": "-"
+    }
+  ]
+}

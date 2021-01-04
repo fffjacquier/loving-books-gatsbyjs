@@ -35,6 +35,9 @@ const Typography = createGlobalStyle`
   .center {
     text-align: center;
   }
+  .left {
+    text-align: left;
+  }
   .tilt {
     transform: rotate(-2deg);
   }

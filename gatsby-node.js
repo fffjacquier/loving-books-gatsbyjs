@@ -63,7 +63,7 @@ async function fetchBeersAndTurnIntoNodes({
   createContentDigest,
 }) {
   // fetch list of beers
-  const res = await fetch('https://sampleapis.com/beers/api/ale');
+  const res = await fetch('https://api.sampleapis.com/beers/ale');
   const beers = await res.json();
   // loop over
   for (const beer of beers) {
