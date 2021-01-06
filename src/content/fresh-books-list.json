@@ -2,7 +2,18 @@
   "title": "My list of freshly stumbled upon promising books",
   "content": [
     {
-      "date": "2021-01-03",
+      "date": "2021-01-06",
+      "title": "The right kind of crazy",
+      "author": "Clint Emerson"
+    },
+    {
+      "date": "2021-01-05",
+      "title": "Ask for more, 10 questions for better negotiations",
+      "author": "Alexandra Carter",
+      "src": "Marie Forleo"
+    },
+    {
+      "date": "2021-01-04",
       "title": "Second tree from the corner",
       "author": "E.B White",
       "src": "Ben Stiller"
