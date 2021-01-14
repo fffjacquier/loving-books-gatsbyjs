@@ -2,6 +2,70 @@
   "title": "My list of freshly stumbled upon promising books",
   "content": [
     {
+      "date": "2021-01-12",
+      "title": "Briarpatch",
+      "author": "Ross Thomas"
+    },
+    {
+      "date": "2021-01-10",
+      "title": "Le loup des steppes",
+      "author": "Hermann Hesse"
+    },
+    {
+      "date": "2021-01-10",
+      "title": "Mr Vertigo",
+      "author": "Paul Auster"
+    },
+    {
+      "date": "2021-01-08",
+      "title": "La vie seule (Living alone)",
+      "author": "Stella Benson"
+    },
+    {
+      "date": "2021-01-08",
+      "title": "Croire aux fauves",
+      "author": "Nastassja Martin",
+      "src": "&Eacute;tonnants voyageurs"
+    },
+    {
+      "date": "2021-01-08",
+      "title": "La fabrique des pervers",
+      "author": "Sophie Chauveau"
+    },
+    {
+      "date": "2021-01-08",
+      "title": "L'enchantement du monde",
+      "author": "Olivier Weber"
+    },
+    {
+      "date": "2021-01-08",
+      "title": "Je suis de nulle part",
+      "author": "Olivier Weber"
+    },
+    {
+      "date": "2021-01-08",
+      "title": "Trois contes",
+      "author": "Gustave Flaubert",
+      "src": "Antoine Albalat"
+    },
+    {
+      "date": "2021-01-08",
+      "title": "The gift",
+      "author": "Lewis Hyde",
+      "src": "Margaret Atwood"
+    },
+    {
+      "date": "2021-01-07",
+      "title": "Sound and Fury",
+      "author": "William Faulkner",
+      "src": "Margaret Atwood"
+    },
+    {
+      "date": "2021-01-07",
+      "title": "Oryx and crake",
+      "author": "Margaret Atwood"
+    },
+    {
       "date": "2021-01-06",
       "title": "The right kind of crazy",
       "author": "Clint Emerson"
@@ -47,12 +111,6 @@
       "author": "Laurence Gonzales",
       "date": "2021-01-01",
       "src": "Joel McHale"
-    },
-    {
-      "date": "2020-12-31",
-      "title": "Les onze",
-      "author": "Pierre Michon",
-      "src": "-"
     }
   ]
 }

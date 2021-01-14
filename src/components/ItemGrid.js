@@ -6,8 +6,8 @@ export default function ItemGrid({ items, base }) {
   return (
     <ItemsGrid>
       {items.map((item) => (
-        <Link to={`${base}/${item.slug.current}`}>
-          <ItemStyles key={item._id} title={item.name}>
+        <Link key={item._id} to={`${base}/${item.slug.current}`}>
+          <ItemStyles title={item.name}>
             <p>
               <span className="mark">{item.name}</span>
             </p>
