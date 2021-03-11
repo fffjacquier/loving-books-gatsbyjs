@@ -73,7 +73,10 @@ const FreshlyHarvestedStyles = styled.div`
       content: '';
     }
   }
-  h5 .author {
+  h3 {
+    font-size: 1.67rem;
+  }
+  h3 .author {
     font-variant: smallcaps;
     font-size: 0.8em;
   }
@@ -91,12 +94,12 @@ export default function EnteringBooks() {
           <div className="entry" key={idx}>
             <span className="dot" />
             <div>
-              <h5>
+              <h3>
                 {data.date}{' '}
                 {data.src && (
                   <span className="author">- Source: {data.src}</span>
                 )}
-              </h5>
+              </h3>
               <h4>
                 <span className="mark">{data.title}</span>,{' '}
                 <span className="author">{data.author}</span>
