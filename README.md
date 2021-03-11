@@ -1,6 +1,6 @@
 https://loving-books-b15aa8.netlify.app/
 
-# Gatsby loves books project
+# Gatsbyjs - A love-books project
 
 Still in project mode, not totally fixed about what I want to do with it.
 
@@ -10,3 +10,5 @@ Still in project mode, not totally fixed about what I want to do with it.
 - Styled components
 - BackEnd is done with Sanity
 - Netlify to deploy on github hooks
+- Performance
+- 100% Lighthouse
