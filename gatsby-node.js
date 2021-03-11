@@ -154,7 +154,7 @@ export async function createPages(params) {
       resolve: {
         alias: {
           'react-dom': '@hot-loader/react-dom',
-        },
+        }
       },
     });
   }

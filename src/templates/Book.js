@@ -45,6 +45,7 @@ const BookGrid = styled.div`
     font-size: 0.75em
     line-height: 1.8em
     margin-top: 1em
+  }
   .quotiquo {
     float: left;
     height: 45px;

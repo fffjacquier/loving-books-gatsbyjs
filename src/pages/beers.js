@@ -1,3 +1,9 @@
+export default function BeersPage({ data }) {
+  return (
+    <h1>test</h1>
+  )
+}
+/*
 import { graphql } from 'gatsby';
 import React from 'react';
 import styled from 'styled-components';
@@ -34,20 +40,22 @@ export default function BeersPage({ data }) {
       </h2>
       <BeerGridStyles>
         {data.beers.nodes.map((beer) => {
-          const rating = Math.round(beer.rating.average);
+          const rating = Math.round(beer.rating?.average) || null;
 
           return (
             <SingleBeerStyles key={beer.id}>
               <img src={beer.image} alt={beer.name} />
               <h3>{beer.name}</h3>
               {beer.price}
-              <p title={`${rating} out of 5 stars`}>
-                {'⭐'.repeat(rating)}
-                <span style={{ filter: `grayscale(100%)` }}>
-                  {'⭐'.repeat(5 - rating)}
-                </span>
-                <span>({beer.rating.reviews})</span>
-              </p>
+              {rating && (
+                <p title={`${rating} out of 5 stars`}>
+                  {'⭐'.repeat(rating)}
+                  <span style={{ filter: `grayscale(100%)` }}>
+                    {'⭐'.repeat(5 - rating)}
+                  </span>
+                  <span>({beer.rating.reviews})</span>
+                </p>
+              )}
             </SingleBeerStyles>
           );
         })}
@@ -72,3 +80,4 @@ export const query = graphql`
     }
   }
 `;
+*/

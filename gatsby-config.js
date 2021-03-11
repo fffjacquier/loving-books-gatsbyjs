@@ -36,9 +36,24 @@ export default {
         // An optional attribute which provides support for CORS check.
         // If you do not provide a crossOrigin option, it will skip CORS for manifest.
         // Any invalid keyword or empty string defaults to `anonymous`
+        icons: [
+          {
+            src: '/maskable_icon_x192.png',
+            sizes: '192x192',
+            type: 'image/png',
+            purpose: 'any maskable'
+          },
+          {
+            src: '/maskable_icon_x192.png',
+            sizes: '512x512',
+            type: 'image/png',
+            purpose: 'any maskable'
+          }
+        ],
+        cache_busting_mode: 'none',
         crossOrigin: `use-credentials`,
       },
     },
-    'gatsby-plugin-offline',
+    'gatsby-plugin-offline'
   ],
 };
