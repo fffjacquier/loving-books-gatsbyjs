@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function BeersPage({ data }) {
   return (
     <h1>test</h1>
