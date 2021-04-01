@@ -11,4 +11,4 @@ Still in project mode, not totally fixed about what I want to do with it.
 - BackEnd is done with Sanity
 - Netlify to deploy on github hooks
 - Performance
-- 100% Lighthouse
+- 100% Lighthouse / Jan 2021
